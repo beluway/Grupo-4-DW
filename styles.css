@@ -1,11 +1,15 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: rgb(243, 144, 62);
 }
 
 .image{
-    border: 5px solid green;
+    border: 0.5px dashed rgb(0,0,0);
     border-radius: 10px;
     height: 400px;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    text-align: center; 
 }
 
 h1{
@@ -29,6 +33,13 @@ h1{
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+<<<<<<< HEAD
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    place-content: center;
+=======
 a{
     display: block;
     padding: 50px;
@@ -36,4 +47,5 @@ a{
     color: rgb(52, 120, 179);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+>>>>>>> master
 }
